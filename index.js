@@ -27,7 +27,7 @@ const bootstrap = async () => {
     await mongoose.connect('mongodb+srv://asasedmor:4aBz0btJqLcRDhs2@cluster0.qswkqgp.mongodb.net/?retryWrites=true&w=majority&appName=Ecom/myDatabase');
     console.log('Connected DB');
   } catch (error) {
-    console.log(`Error connecting with DB: ${error}`);
+    console.log(Error connecting with DB: ${error});
   }
 };
 
@@ -37,5 +37,5 @@ app.use('/api/auth', authRoutes);
 app.use('/api/check', checkRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server http://localhost:${PORT} da ishlayapti`);
+  console.log(Server http://localhost:${PORT} da ishlayapti);
 });
