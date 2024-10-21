@@ -11,7 +11,7 @@ app.use(express.json());
 
 // CORS sozlash
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://your-frontend-domain.com'], // Ruxsat berilgan domenlar
+  origin: ['http://localhost:5173', 'https://face-auth-two.vercel.app/'], // Ruxsat berilgan domenlar
   methods: 'GET,POST,PUT,DELETE', // Ruxsat berilgan HTTP metodlar
   credentials: true, // Cookie va autentifikatsiya ma'lumotlarini yuborishga ruxsat
 };
